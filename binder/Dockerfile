@@ -1,5 +1,5 @@
 # Copyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
-FROM jupyter/base-notebook:17aba6048f44
-ENV TAG="17aba6048f44"
+FROM jupyter/pyspark-notebook:76402a27fd1
+ENV TAG="76402a27fd1"
 COPY binder/README.ipynb .
