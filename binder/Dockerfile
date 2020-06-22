@@ -3,4 +3,6 @@
 # Distributed under the terms of the Modified BSD License.
 FROM jupyter/base-notebook:17aba6048f44
 ENV TAG="17aba6048f44"
+RUN jupyter labextension install @jupyter-voila/jupyterlab-preview
+
 COPY binder/README.ipynb .
